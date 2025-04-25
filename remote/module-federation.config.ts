@@ -1,5 +1,7 @@
 export const mfConfig = {
   name: "remote",
-  exposes: {},
+  exposes: {
+    "./Counter": "./src/Counter.tsx",
+  },
   shared: ["react", "react-dom"],
 };
